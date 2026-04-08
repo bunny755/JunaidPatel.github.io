@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Enquiry - Junaid</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<header>
+    <h1>Enquiry Form</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Me</a>
+    <a href="achievements.html">Achievements</a>
+    <a href="projects.html">Projects</a>
+    <a href="enquiry.html">Enquiry</a>
+</nav>
+
+<section>
+    <form onsubmit="submitForm(event)">
+        <label>Name:</label>
+        <input type="text" id="name" required>
+
+        <label>Email:</label>
+        <input type="email" id="email" required>
+
+        <label>Message:</label>
+        <textarea id="message" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <p id="response"></p>
+</section>
+
+<footer>
+    <p>© 2026 Junaid Portfolio</p>
+</footer>
+
+</body>
+</html>
