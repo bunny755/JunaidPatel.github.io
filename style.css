@@ -12,7 +12,7 @@ body {
     animation: gradientMove 12s ease infinite;
 }
 .intro{
-    color: red;
+    color: #ee0979;
 }
 /* Background Animation */
 @keyframes gradientMove {
