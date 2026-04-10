@@ -11,7 +11,9 @@ body {
     background-size: 800% 800%;
     animation: gradientMove 12s ease infinite;
 }
-
+.intro{
+    color: red;
+}
 /* Background Animation */
 @keyframes gradientMove {
     0% { background-position: 0% 50%; }
